@@ -142,10 +142,37 @@ h2 {
   line-height: 1.5;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
-  color: black;
+  color: rgb(255, 255, 255);
   background: linear-gradient(135deg, #a83737, #8f2323);
   border-bottom: 3px solid #ffffff; 
   box-shadow: inset 0 -4px 0 #ffffff;
   border-radius: 25px;
   border: 2px solid #ffffff;
+}
+.links__item-twitch:hover {
+  transform: scale(1.1); /* Scale up on hover */
+}
+.divider-button {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #8f2323;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: all 0.2s ease-in-out;
+  width: 400px; /* Adjust width as needed */
+  /* Override background-size for the button */
+  background-size: auto; /* Or you can use a specific value like "auto" or "contain" */
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  border-bottom: 3px solid #000000; 
+  box-shadow: inset 0 -4px 0 #000000;
+  border-radius: 25px;
+  border: 2px solid #000000;
+}
+.divider-button:hover {
+  transform: scale(1.1); /* Scale up on hover */
 }
