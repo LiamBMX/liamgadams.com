@@ -156,7 +156,7 @@ h2 {
   font-size: 18px;
   font-weight: bold;
   color: #ffffff;
-  background-color: #8f2323;
+  background-color: #461414;
   padding: 10px 20px;
   border-radius: 5px;
   margin-top: 20px;
@@ -168,10 +168,10 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   border-radius: 25px;
-  border-bottom: 3px solid #000000; 
-  box-shadow: inset 0 -4px 0 #000000;
+  border-bottom: 3px solid #ffffff; 
+  box-shadow: inset 0 -4px 0 #ffffff;
   border-radius: 25px;
-  border: 2px solid #000000;
+  border: 2px solid #ffffff;
 }
 .divider-button:hover {
   transform: scale(1.1); /* Scale up on hover */
