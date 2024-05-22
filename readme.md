@@ -1,6 +1,6 @@
-# [Website Name]
+# [liamgadams.com]
 
-This website was created using the [Streamer Website Builder](https://github.com/LiamBMX/Streamer-Website-Builder) repository. 
+This website was created using the [Streamer Website Builder](https://github.com/LiamBMX/Streamer-Website-Builder) repository. This website is used for the content creator LimboLimn.
 
 ## About
 
