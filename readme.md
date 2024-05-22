@@ -22,29 +22,29 @@ Make sure you have Python installed on your system. You can download it from [py
 
    Open your terminal or command prompt and run the following command:
 
-   \```
+   ```
    git clone https://github.com/LiamBMX/Streamer-Website-Builder.git
-   \```
+   ```
 
 2. **Navigate to the Project Directory**
 
-   \```
+   ```
    cd Streamer-Website-Builder
-   \```
+   ```
 
 3. **Run the Application**
 
    You can either run the Python script directly:
 
-   \```
+   ```
    python gui.py
-   \```
+   ```
 
    Or run the batch file if you are on Windows:
 
-   \```
+   ```
    gui.bat
-   \```
+   ```
 
 4. **Customize Your Website**
 
