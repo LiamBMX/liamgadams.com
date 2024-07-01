@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,60 +8,53 @@
     <link rel="icon" href="logo.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156351942-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QE5FQRB0B9"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+        function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'UA-156351942-1');
+
+        function trackButtonClick(eventCategory, eventAction, eventLabel) {
+            gtag('event', eventAction, {
+                'event_category': eventCategory,
+                'event_label': eventLabel
+            });
+        }
     </script>
-
 </head>
-
 <body>
     <script src="script.js"></script>
     <img class="logo" src="logo.png" alt="logo">
     <div class="links">
-
         <div class="divider-button">Social Links:</div>
         <div class="links__item twitch">
-            <a class="links__item links__item-twitch" href="https://tiktok.com/@limbolimn" target="_blank">TikTok</a>
+            <a class="links__item links__item-twitch" href="https://tiktok.com/@limbolimn" target="_blank" onclick="trackButtonClick('Social Links', 'click', 'TikTok')">TikTok</a>
         </div>
         
         <div class="links__item discord_link">
-            <a class="links__item links__item-twitch" href="https://discord.com/invite/2EQB8RByMg" target="_blank">Discord</a>
+            <a class="links__item links__item-twitch" href="https://discord.com/invite/2EQB8RByMg" target="_blank" onclick="trackButtonClick('Social Links', 'click', 'Discord')">Discord</a>
         </div>
         <div class="links__item twitch_link">
-            <a class="links__item links__item-twitch" href="https://www.twitch.tv/limbolimn" target="_blank">Twitch</a>
+            <a class="links__item links__item-twitch" href="https://www.twitch.tv/limbolimn" target="_blank" onclick="trackButtonClick('Social Links', 'click', 'Twitch')">Twitch</a>
         </div>
         <div class="divider-button">Business / Partnerships:</div>
 
         <div class="links__item twitch">
-            <a class="links__item links__item-twitch" href="mailto:business@liamgadams.com" target="_blank">Business Email</a>
+            <a class="links__item links__item-twitch" href="mailto:business@liamgadams.com" target="_blank" onclick="trackButtonClick('Business', 'click', 'Business Email')">Business Email</a>
         </div>
         <div class="links__item twitch_link">
-            <a class="links__item links__item-twitch" href="https://discord.gg/eUYC5zwY5n" target="_blank">R6 Tournaments</a>
+            <a class="links__item links__item-twitch" href="https://discord.gg/eUYC5zwY5n" target="_blank" onclick="trackButtonClick('Business', 'click', 'R6 Tournaments')">R6 Tournaments</a>
         </div>
         <div class="links__item twitch_link">
-            <a class="links__item links__item-twitch" href="https://www.twitch.tv/limbolimn" target="_blank">Coming Soon...</a>
+            <a class="links__item links__item-twitch" href="https://www.twitch.tv/limbolimn" target="_blank" onclick="trackButtonClick('Business', 'click', 'Coming Soon 1')">Coming Soon...</a>
         </div>
         <div class="links__item twitch_link">
-            <a class="links__item links__item-twitch" href="https://www.twitch.tv/limbolimn" target="_blank">Coming Soon...</a>
+            <a class="links__item links__item-twitch" href="https://www.twitch.tv/limbolimn" target="_blank" onclick="trackButtonClick('Business', 'click', 'Coming Soon 2')">Coming Soon...</a>
         </div>
         <div class="links__item twitch_link">
-            <a class="links__item links__item-twitch" href="https://www.twitch.tv/limbolimn" target="_blank">Coming Soon...</a>
+            <a class="links__item links__item-twitch" href="https://www.twitch.tv/limbolimn" target="_blank" onclick="trackButtonClick('Business', 'click', 'Coming Soon 3')">Not Soon...</a>
         </div>
-        </div>
-        <div class="bubble-container">
-            <div class="bubble">
-              <div class="circle"><div class="message">!</div></div>
-            </div>
-          </div>
+    </div>
 </body>
-
-
 </html>
